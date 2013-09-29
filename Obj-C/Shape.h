@@ -8,4 +8,7 @@
 @interface ConvexPolygon : NSObject <Shape> {
 }
 
+@property(readonly) int numSides;
+@property(readonly) int numDiagonals;
+
 @end

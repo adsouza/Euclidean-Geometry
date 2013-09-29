@@ -1,6 +1,11 @@
 #import "Shape.h"
 
-@interface Rectangle : ConvexPolygon {
+@interface Quadrilateral : ConvexPolygon {
+}
+
+@end
+
+@interface Rectangle : Quadrilateral {
 	float width;
 	float height;
 }

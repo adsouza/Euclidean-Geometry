@@ -15,6 +15,7 @@ int main (int argc, const char * argv[]) {
 		[shapes addObject:item];
 	}
 	for (ConvexPolygon <Equilateral> *item in shapes) {
+		[item numDiagonals];
 		[item perimeter];
 	}
 	

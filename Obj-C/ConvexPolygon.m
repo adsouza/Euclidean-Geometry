@@ -16,4 +16,9 @@
 	@throw exception;
 }
 
+- (int) numDiagonals
+{
+	return [self numSides] * ([self numSides] - 3) / 2;
+}
+
 @end

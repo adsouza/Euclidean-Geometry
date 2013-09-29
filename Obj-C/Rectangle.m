@@ -1,5 +1,17 @@
 #import "Rectangle.h"
 
+const int NUM_SIDES = 4;
+
+@implementation Quadrilateral
+
+- (int)numSides
+{
+	return NUM_SIDES;
+}
+
+@end
+
+
 @implementation Rectangle
 
 - init
