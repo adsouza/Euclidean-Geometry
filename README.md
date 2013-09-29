@@ -5,7 +5,8 @@ This project is a set of didactic source code samples in different programming l
 Euclidean plane geometry to illustrate language features.
 The idea behind the project is to help anybody with an understanding of basic geometry pick up the core features of
 a new language easily.
-It aims to follow in the spirit of the Rosetta stone and ToDoMVC.
+It aims to follow in the spirit of the [Rosetta stone](http://en.wikipedia.org/wiki/Rosetta_Stone) and
+[ToDoMVC](http://todomvc.com/).
 
 We begin with the concept of convex polygons, which should know the length of their own perimeter.
 This is easy for circles (provided their radius is known) and equilaterals. [It's not hard for rectangles either.]
