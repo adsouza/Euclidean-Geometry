@@ -17,6 +17,7 @@ int main (int argc, const char * argv[]) {
 		[shapes addObject:item];
 	}
 	for (Shape <Equilateral> *item in shapes) {
+		[item isFilled];
 		[item perimeter];
 	}
 	

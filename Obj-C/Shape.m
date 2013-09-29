@@ -8,18 +8,16 @@
 	return [self initWithColor:[NSColor lightGrayColor] fill:[NSColor lightGrayColor]];
 }
 
-- initWithColor:(NSColor *)primary fill:(NSColor *)fill
+- initWithColor:(NSColor *)outline fill:(NSColor *)fill
 {
-	if (primary == nil) {
+	if (outline == nil) {
 		return nil;
 	}
 	if (self = [super init]) {
-		primaryColor = primaryColor;
+		outlineColor = outlineColor;
 		if (fill != nil) {
-			filled = TRUE;
 			fillColor = fill;
 		} else {
-			filled = FALSE;
 			fillColor = nil;
 		}
 	}
@@ -47,8 +45,12 @@
 	@throw exception;
 }
 
-@synthesize primaryColor;
-@synthesize filled;
+- (BOOL)isFilled
+{
+	return fillColor.alphaComponent > 0;
+}
+
+@synthesize outlineColor;
 @synthesize fillColor;
 
 @end

@@ -4,21 +4,21 @@
 
 - init
 {
-	return [self initWithSize:1.0 primaryColor:[NSColor lightGrayColor] fillColor:[NSColor lightGrayColor]];
+	return [self initWithSize:1.0 outlineColor:[NSColor lightGrayColor] fillColor:[NSColor lightGrayColor]];
 }
 
-- initWithSize:(float)sideLen primaryColor:(NSColor *)primary fillColor:(NSColor *)fill
+- initWithSize:(float)sideLen outlineColor:(NSColor *)outline fillColor:(NSColor *)fill
 {
-	if (self = [super initWithColor:primary fill:fill]) {
+	if (self = [super initWithColor:outline fill:fill]) {
 		width = sideLen;
 		height = sideLen;
 	}
 	return self;
 }
 
-- initWithColor:(NSColor *)primary fill:(NSColor *)fill
+- initWithColor:(NSColor *)outline fill:(NSColor *)fill
 {
-	return [self initWithSize:1.0 primaryColor:primary fillColor:fill];
+	return [self initWithSize:1.0 outlineColor:outline fillColor:fill];
 }
 
 - (void) display

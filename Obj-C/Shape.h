@@ -3,18 +3,17 @@
 @class NSColor;
 
 @interface Shape : NSObject {
-	NSColor *primaryColor;
-	BOOL filled;
+	NSColor *outlineColor;
 	NSColor *fillColor;
 }
 
-@property(retain) NSColor *primaryColor;
-@property(getter=isFilled) BOOL filled;
+@property(retain) NSColor *outlineColor;
 @property(retain) NSColor *fillColor;
+@property(readonly) BOOL isFilled;
 @property(readonly) float perimeter;
 
 - init;
-- initWithColor:(NSColor *)primary fill:(NSColor *)fill;
+- initWithColor:(NSColor *)outline fill:(NSColor *)fill;
 - initFilled:(NSColor *)color;
 
 @end
