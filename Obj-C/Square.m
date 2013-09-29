@@ -1,5 +1,7 @@
 #import "Square.h"
 
+const int NUM_SIDES = 4;
+
 @implementation Square
 
 - (float)sideLength
@@ -9,7 +11,7 @@
 
 - (int)numSides
 {
-	return 4;
+	return NUM_SIDES;
 }
 
 - (void)setSideLength:(float)length
