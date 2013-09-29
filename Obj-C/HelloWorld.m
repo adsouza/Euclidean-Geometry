@@ -12,7 +12,7 @@ int main (int argc, const char * argv[]) {
 				[square perimeter]);
 	
 	NSMutableSet *shapes = [NSMutableSet set];
-	for (int i=1.0; i<27; i++) {
+	for (int i=1.0; i<3; i++) {
 		Shape <Equilateral> *item = [[Square alloc] init];
 		[shapes addObject:item];
 	}
