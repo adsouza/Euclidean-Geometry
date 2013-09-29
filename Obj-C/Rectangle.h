@@ -1,5 +1,6 @@
 #import "Shape.h"
 
+// See http://en.wikipedia.org/wiki/File:Quadrilateral_hierarchy.png
 @interface Quadrilateral : ConvexPolygon {
 }
 
