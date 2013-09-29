@@ -16,6 +16,5 @@
 - init;
 - initWithColor:(NSColor *)primary fill:(NSColor *)fill;
 - initFilled:(NSColor *)color;
-- (void)dealloc;
 
 @end
