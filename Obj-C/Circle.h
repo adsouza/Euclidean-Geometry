@@ -1,4 +1,4 @@
-#import "Shape.h"
+#import "ConvexPolygon.h"
 
 @interface Circle : Shape {
 	float radius;
