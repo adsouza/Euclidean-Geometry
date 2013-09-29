@@ -8,7 +8,7 @@ a new language easily.
 It aims to follow in the spirit of the [Rosetta stone](http://en.wikipedia.org/wiki/Rosetta_Stone) and
 [ToDoMVC](http://todomvc.com/).
 
-We begin with the concept of convex polygons, which should know the length of their own perimeter.
+We begin with the concept of geometric shapes, which should know the length of their own perimeter.
 This is easy for circles (provided their radius is known) and equilaterals. [It's not hard for rectangles either.]
 Squares are equilateral rectangles so it's trivial to compute their perimeters!
 
