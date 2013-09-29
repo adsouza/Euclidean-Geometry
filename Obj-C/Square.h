@@ -1,4 +1,3 @@
-#import <Cocoa/Cocoa.h>
 #import "Rectangle.h"
 #import "Equilateral.h"
 

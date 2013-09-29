@@ -4,25 +4,16 @@
 
 - init
 {
-	return [self initWithSize:1.0 outlineColor:[NSColor lightGrayColor] fillColor:[NSColor lightGrayColor]];
+	return [self initWithSize:1.0];
 }
 
-- initWithSize:(float)sideLen outlineColor:(NSColor *)outline fillColor:(NSColor *)fill
+- initWithSize:(float)sideLen
 {
-	if (self = [super initWithColor:outline fill:fill]) {
+	if (self = [super init]) {
 		self->width = sideLen;
 		self->height = sideLen;
 	}
 	return self;
-}
-
-- initWithColor:(NSColor *)outline fill:(NSColor *)fill
-{
-	return [self initWithSize:1.0 outlineColor:outline fillColor:fill];
-}
-
-- (void) display
-{
 }
 
 - (void)setWidth:(float)newWidth height:(float)newHeight

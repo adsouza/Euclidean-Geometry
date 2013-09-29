@@ -6,9 +6,7 @@
 }
 
 - init;
-- initWithSize:(float)sideLen outlineColor:(NSColor *)outlineColor fillColor:(NSColor *)fillColor;
-- initWithColor:(NSColor *)outline fill:(NSColor *)fill;
-- (void) display;
+- initWithSize:(float)sideLen;
 - (void)setWidth:(float)width height:(float)height;
 
 @end

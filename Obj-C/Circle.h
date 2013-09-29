@@ -1,4 +1,3 @@
-#import <Cocoa/Cocoa.h>
 #import "Shape.h"
 
 @interface Circle : Shape {
