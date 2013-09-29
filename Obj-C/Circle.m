@@ -11,7 +11,7 @@
 
 - initWithRadius:(float)rad
 {
-	radius = rad;
+	self->radius = rad;
 	return self;
 }
 

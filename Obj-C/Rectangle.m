@@ -10,8 +10,8 @@
 - initWithSize:(float)sideLen outlineColor:(NSColor *)outline fillColor:(NSColor *)fill
 {
 	if (self = [super initWithColor:outline fill:fill]) {
-		width = sideLen;
-		height = sideLen;
+		self->width = sideLen;
+		self->height = sideLen;
 	}
 	return self;
 }

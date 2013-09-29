@@ -14,11 +14,11 @@
 		return nil;
 	}
 	if (self = [super init]) {
-		outlineColor = outlineColor;
+		self.outlineColor = outlineColor;
 		if (fill != nil) {
-			fillColor = fill;
+			self.fillColor = fill;
 		} else {
-			fillColor = nil;
+			self.fillColor = nil;
 		}
 	}
 	return self;
