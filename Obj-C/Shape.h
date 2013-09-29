@@ -8,6 +8,4 @@
 @interface ConvexPolygon : NSObject <Shape> {
 }
 
-- init;
-
 @end

@@ -3,11 +3,6 @@
 
 @implementation ConvexPolygon
 
-- init
-{
-	return self;
-}
-
 - (float)perimeter
 {
 	if ([self conformsToProtocol:@protocol(Equilateral)]) {
