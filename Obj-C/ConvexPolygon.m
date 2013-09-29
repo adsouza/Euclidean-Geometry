@@ -1,7 +1,7 @@
 #import "ConvexPolygon.h"
 #import "Equilateral.h"
 
-@implementation Shape
+@implementation ConvexPolygon
 
 - init
 {

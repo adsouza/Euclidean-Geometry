@@ -1,6 +1,6 @@
 #import "ConvexPolygon.h"
 
-@interface Rectangle : Shape {
+@interface Rectangle : ConvexPolygon {
 	float width;
 	float height;
 }
