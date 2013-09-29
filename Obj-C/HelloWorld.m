@@ -1,5 +1,3 @@
-#import <Foundation/Foundation.h>
-
 #import "Square.h"
 #import "Equilateral.h"
 #import "Circle+Squared.h"
