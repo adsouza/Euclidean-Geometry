@@ -3,11 +3,9 @@
 @class NSColor;
 
 @interface Shape : NSObject {
-	
 	NSColor *primaryColor;
 	BOOL filled;
 	NSColor *fillColor;
-
 }
 
 @property(retain) NSColor *primaryColor;
