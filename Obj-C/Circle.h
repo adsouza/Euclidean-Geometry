@@ -1,6 +1,6 @@
 #import "ConvexPolygon.h"
 
-@interface Circle : ConvexPolygon {
+@interface Circle : NSObject {
 	float radius;
 }
 
