@@ -47,7 +47,7 @@
 
 - (BOOL)isFilled
 {
-	return fillColor.alphaComponent > 0;
+	return fillColor != nil && fillColor.alphaComponent > 0;
 }
 
 @synthesize outlineColor;
