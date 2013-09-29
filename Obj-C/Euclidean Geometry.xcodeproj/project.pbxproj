@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DD76F960486AA7600D96B5E /* Shapes */ = {
+		8DD76F960486AA7600D96B5E /* Euclidean Geometry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Shapes" */;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Euclidean Geometry" */;
 			buildPhases = (
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
@@ -134,7 +134,7 @@
 			);
 			dependencies = (
 			);
-			name = Shapes;
+			name = "Euclidean Geometry";
 			productInstallPath = "$(HOME)/bin";
 			productName = HelloWorld;
 			productReference = 8DD76FA10486AA7600D96B5E /* HelloWorld */;
@@ -148,7 +148,7 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 			};
-			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Shapes" */;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Euclidean Geometry" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DD76F960486AA7600D96B5E /* Shapes */,
+				8DD76F960486AA7600D96B5E /* Euclidean Geometry */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +193,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shapes_Prefix.pch;
+				GCC_PREFIX_HEADER = "Euclidean Geometry_Prefix.pch";
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = HelloWorld;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -210,7 +210,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shapes_Prefix.pch;
+				GCC_PREFIX_HEADER = "Euclidean Geometry_Prefix.pch";
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = HelloWorld;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Shapes" */ = {
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Euclidean Geometry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927508733DD40010E9CD /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Shapes" */ = {
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Euclidean Geometry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927908733DD40010E9CD /* Debug */,
