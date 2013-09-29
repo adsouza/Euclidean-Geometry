@@ -15,9 +15,14 @@
 	return self;
 }
 
-- (float)perimeter
+- (float)circumference
 {
 	return 2 * M_PI * radius;
+}
+
+-(float)perimeter
+{
+	return [self circumference];
 }
 
 @end

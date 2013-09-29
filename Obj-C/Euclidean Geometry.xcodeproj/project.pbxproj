@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
-		B762E1371189B31700E4659D /* ConvexPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvexPolygon.h; sourceTree = "<group>"; };
+		B762E1371189B31700E4659D /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		B762E1381189B31700E4659D /* ConvexPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvexPolygon.m; sourceTree = "<group>"; };
 		B762E13A1189B34300E4659D /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		B762E13B1189B34300E4659D /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				B7C7365F118DC8B300355678 /* Equilateral.h */,
 				B762E1561189B4E500E4659D /* Circle.h */,
 				B762E1571189B4E500E4659D /* Circle.m */,
-				B762E1371189B31700E4659D /* ConvexPolygon.h */,
+				B762E1371189B31700E4659D /* Shape.h */,
 				B762E1381189B31700E4659D /* ConvexPolygon.m */,
 				08FB7796FE84155DC02AAC07 /* HelloWorld.m */,
 				B762E13A1189B34300E4659D /* Rectangle.h */,

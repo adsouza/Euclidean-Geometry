@@ -1,4 +1,4 @@
-#import "ConvexPolygon.h"
+#import "Shape.h"
 #import "Equilateral.h"
 
 @implementation ConvexPolygon
