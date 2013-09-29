@@ -14,3 +14,5 @@ Squares are equilateral rectangles so it's trivial to compute their perimeters!
 
 Computing the perimeter of the square that inscribes a circle is slightly more involved.
 We can use the radius to compute the length of the square's dimensions and then use those to compute its perimeter.
+
+Similarly, we can compute the number of diagonals for all polygons if we know how many sides they have.
