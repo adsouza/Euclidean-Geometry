@@ -11,11 +11,10 @@
 - initWithColor:(NSColor *)primary fill:(NSColor *)fill
 {
 	if (primary == nil) {
-		[self release];
 		return nil;
 	}
 	if (self = [super init]) {
-		primaryColor = [primaryColor retain];
+		primaryColor = primaryColor;
 		if (fill != nil) {
 			filled = TRUE;
 			fillColor = fill;
@@ -33,13 +32,6 @@
 		color = [NSColor lightGrayColor];
 	}
 	return [self initWithColor:color fill:color];
-}
-
-- (void)dealloc
-{
-	[primaryColor release];
-	[fillColor release];
-	[super dealloc];
 }
 
 - (float)perimeter
