@@ -5,7 +5,6 @@
 }
 
 @property float radius;
-@property(readonly) float perimeter;
 
 - init;
 - initWithRadius:(float)rad;
