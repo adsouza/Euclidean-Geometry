@@ -5,6 +5,5 @@
 }
 
 - (void)setWidth:(float)width height:(float)height;
-- (void)setSideLength:(float)length;
 
 @end
