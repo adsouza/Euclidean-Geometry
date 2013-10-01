@@ -21,5 +21,8 @@ public class Circle implements Shape {
         Circle me = new Circle();
         System.out.println("The square that inscribes the unit circle has a perimeter of " +
                            me.inscribe().getPerimeter());
+        me = new Circle(1/(Math.PI * 2));
+        System.out.println("The square that inscribes a circle with circumference of 1 has a perimeter of " +
+                           me.inscribe().getPerimeter());
     }
 }

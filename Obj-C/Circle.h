@@ -8,7 +8,6 @@
 @property float radius;
 
 - init;
-- initWithRadius:(float)rad;
-
+- initWithRadius:(float)radius;
 
 @end
