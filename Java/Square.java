@@ -13,5 +13,6 @@ public class Square extends Rectangle implements Equilateral {
     public static void main(String[] args) {
         Square sq = new Square();
         System.out.println("The perimeter of a unit square is " + sq.getPerimeter());
+        System.out.printf("Squares have %d diagonals.\n", sq.getNumDiagonals());
     }
 }
