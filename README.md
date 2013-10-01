@@ -12,8 +12,8 @@ We begin with the concept of geometric shapes, which should know the length of t
 This is easy for circles (provided their radius is known) and equilaterals. [It's not hard for rectangles either.]
 Squares are equilateral rectangles so it's trivial to compute their perimeters!
 
+Similarly, we can compute the number of diagonals for all polygons if we know how many sides they have.
+
 Computing the perimeter of the square that inscribes a circle is slightly more involved.
 We can use the radius to compute the length of the square's dimensions and then use those to compute its perimeter.
 Using Pythagorean theorem we can also compute the circumference of the circle that cirsumscribes a rectangle.
-
-Similarly, we can compute the number of diagonals for all polygons if we know how many sides they have.
