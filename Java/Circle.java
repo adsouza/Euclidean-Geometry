@@ -7,10 +7,10 @@ public class Circle implements Shape {
     public Circle(double radius) {
         this.radius = radius;
     }
-	public double getPerimeter() {
+    public double getPerimeter() {
         return getCircumference();
     }
-	public double getCircumference() {
+    public double getCircumference() {
         return 2 * Math.PI * radius;
     }
 }
