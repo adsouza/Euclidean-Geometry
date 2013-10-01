@@ -11,4 +11,8 @@ public class Rectangle extends ConvexPolygon {
     public int getNumSides() {
         return NUM_SIDES;
     }
+    public Circle circumscribe() {
+        double diagonal = Math.hypot(width, height);
+        return new Circle(diagonal/2);
+    }
 }

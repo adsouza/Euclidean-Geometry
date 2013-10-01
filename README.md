@@ -16,4 +16,4 @@ Similarly, we can compute the number of diagonals for all polygons if we know ho
 
 Computing the perimeter of the square that inscribes a circle is slightly more involved.
 We can use the radius to compute the length of the square's dimensions and then use those to compute its perimeter.
-Using Pythagorean theorem we can also compute the circumference of the circle that cirsumscribes a rectangle.
+Using Pythagorean theorem we can also compute the circumference of the circle that circumscribes a rectangle.
