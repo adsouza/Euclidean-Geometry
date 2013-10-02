@@ -2,14 +2,9 @@
 
 @implementation Circle (Squared)
 
-- (float)width
+- (float)sideLength
 {
 	return radius * 2;
-}
-
-- (float)height
-{
-	return [self width];
 }
 
 @end
