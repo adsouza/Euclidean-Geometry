@@ -1,4 +1,4 @@
-#import "Square.h"
+#import "Square+Circled.h"
 #import "Equilateral.h"
 #import "Circle+Squared.h"
 
@@ -11,6 +11,11 @@ int main (int argc, const char * argv[]) {
 	square = [[Square alloc] initWithSize:[round height]];
 	NSLog(@"Perimeter of square that inscribes the unit circle is %.0f.",
 				[square perimeter]);
+	
+	Square* sq = [[Square alloc] init];
+	Circle* circumscriber = [[Circle alloc] initWithRadius:[sq radius]];
+	NSLog(@"Circumference of circle that circumscribes unit square is about %f.",
+				[circumscriber circumference]);
 	
 	NSMutableSet *shapes = [NSMutableSet set];
 	for (int i=1.0; i<3; i++) {

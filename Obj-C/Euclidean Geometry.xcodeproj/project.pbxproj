@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C9D299917FBB6510029BA81 /* Square+Circled.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D299817FBB6510029BA81 /* Square+Circled.m */; };
 		8DD76F9A0486AA7600D96B5E /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* HelloWorld.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9F0486AA7600D96B5E /* (null) in CopyFiles */ = {isa = PBXBuildFile; };
 		B762E1391189B31700E4659D /* ConvexPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = B762E1381189B31700E4659D /* ConvexPolygon.m */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		5C9D299717FBB5990029BA81 /* Square+Circled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Square+Circled.h"; sourceTree = "<group>"; };
+		5C9D299817FBB6510029BA81 /* Square+Circled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Square+Circled.m"; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		B762E1371189B31700E4659D /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		B762E1381189B31700E4659D /* ConvexPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvexPolygon.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				08FB7796FE84155DC02AAC07 /* HelloWorld.m */,
 				B762E13A1189B34300E4659D /* Rectangle.h */,
 				B762E13B1189B34300E4659D /* Rectangle.m */,
+				5C9D299717FBB5990029BA81 /* Square+Circled.h */,
+				5C9D299817FBB6510029BA81 /* Square+Circled.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				8DD76F9A0486AA7600D96B5E /* HelloWorld.m in Sources */,
 				B762E1391189B31700E4659D /* ConvexPolygon.m in Sources */,
 				B762E13C1189B34300E4659D /* Rectangle.m in Sources */,
+				5C9D299917FBB6510029BA81 /* Square+Circled.m in Sources */,
 				B762E1581189B4E500E4659D /* Circle.m in Sources */,
 				B7C73665119102AE00355678 /* Square.m in Sources */,
 				B7C737A21197340200355678 /* Circle+Squared.m in Sources */,

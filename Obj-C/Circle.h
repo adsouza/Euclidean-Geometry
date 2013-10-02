@@ -6,6 +6,7 @@
 }
 
 @property float radius;
+@property(readonly) float circumference;
 
 - init;
 - initWithRadius:(float)radius;
