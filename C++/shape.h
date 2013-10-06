@@ -1,3 +1,6 @@
+#ifndef Euclidean_Geometry_shape
+#define Euclidean_Geometry_shape
+
 class Shape {
   public:
     virtual float getPerimeter() const = 0;
@@ -15,3 +18,5 @@ class Equilateral : ConvexPolygon {
     virtual float getSideLength() const = 0;
     virtual void setSideLength(float length) = 0;
 };
+
+#endif

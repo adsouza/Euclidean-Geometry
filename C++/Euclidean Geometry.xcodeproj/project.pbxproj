@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C9BB6ED1802054700D594CF /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EA1802054700D594CF /* main.cc */; };
-		5C9BB6EE1802054700D594CF /* convex_polygon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EC1802054700D594CF /* convex_polygon.cc */; };
+		5C9BB6EE1802054700D594CF /* shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EC1802054700D594CF /* shape.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,8 @@
 		5C0ACD72180203010052747F /* Euclidean Geometry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Euclidean Geometry"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9BB6EA1802054700D594CF /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = SOURCE_ROOT; };
 		5C9BB6EB1802054700D594CF /* shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = shape.h; sourceTree = SOURCE_ROOT; };
-		5C9BB6EC1802054700D594CF /* convex_polygon.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convex_polygon.cc; sourceTree = SOURCE_ROOT; };
+		5C9BB6EC1802054700D594CF /* shape.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cc; sourceTree = SOURCE_ROOT; };
+		5C9BB6EF1802088300D594CF /* circle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = circle.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +63,8 @@
 			children = (
 				5C9BB6EA1802054700D594CF /* main.cc */,
 				5C9BB6EB1802054700D594CF /* shape.h */,
-				5C9BB6EC1802054700D594CF /* convex_polygon.cc */,
+				5C9BB6EC1802054700D594CF /* shape.cc */,
+				5C9BB6EF1802088300D594CF /* circle.h */,
 			);
 			path = "Euclidean Geometry";
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C9BB6ED1802054700D594CF /* main.cc in Sources */,
-				5C9BB6EE1802054700D594CF /* convex_polygon.cc in Sources */,
+				5C9BB6EE1802054700D594CF /* shape.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
