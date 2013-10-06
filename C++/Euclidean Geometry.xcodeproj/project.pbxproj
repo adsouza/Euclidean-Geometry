@@ -10,6 +10,7 @@
 		5C9BB6ED1802054700D594CF /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EA1802054700D594CF /* main.cc */; };
 		5C9BB6EE1802054700D594CF /* shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EC1802054700D594CF /* shape.cc */; };
 		5C9BB6F118020AD600D594CF /* circle.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6F018020AD600D594CF /* circle.cc */; };
+		5C9BB6F418020DC700D594CF /* rectangle.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6F218020DC700D594CF /* rectangle.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		5C9BB6EC1802054700D594CF /* shape.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cc; sourceTree = SOURCE_ROOT; };
 		5C9BB6EF1802088300D594CF /* circle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = circle.h; sourceTree = SOURCE_ROOT; };
 		5C9BB6F018020AD600D594CF /* circle.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cc; sourceTree = SOURCE_ROOT; };
+		5C9BB6F218020DC700D594CF /* rectangle.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle.cc; sourceTree = SOURCE_ROOT; };
+		5C9BB6F318020DC700D594CF /* rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				5C9BB6EA1802054700D594CF /* main.cc */,
+				5C9BB6F218020DC700D594CF /* rectangle.cc */,
+				5C9BB6F318020DC700D594CF /* rectangle.h */,
 				5C9BB6EB1802054700D594CF /* shape.h */,
 				5C9BB6EC1802054700D594CF /* shape.cc */,
 				5C9BB6EF1802088300D594CF /* circle.h */,
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C9BB6F118020AD600D594CF /* circle.cc in Sources */,
+				5C9BB6F418020DC700D594CF /* rectangle.cc in Sources */,
 				5C9BB6ED1802054700D594CF /* main.cc in Sources */,
 				5C9BB6EE1802054700D594CF /* shape.cc in Sources */,
 			);
