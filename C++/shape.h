@@ -1,5 +1,5 @@
-#ifndef Euclidean_Geometry_shape
-#define Euclidean_Geometry_shape
+#ifndef __Euclidean_Geometry__shape__
+#define __Euclidean_Geometry__shape__
 
 class Shape {
   public:

@@ -1,5 +1,5 @@
-#ifndef Euclidean_Geometry_circle_h
-#define Euclidean_Geometry_circle_h
+#ifndef __Euclidean_Geometry__circle__
+#define __Euclidean_Geometry__circle__
 
 #include "shape.h"
 
