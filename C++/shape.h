@@ -12,7 +12,7 @@ class ConvexPolygon : Shape {
     virtual int getNumDiagonals() const;
 };
 
-class Equilateral : ConvexPolygon {
+class Equilateral : public ConvexPolygon {
   public:
     virtual float getPerimeter() const;
     virtual float getSideLength() const = 0;

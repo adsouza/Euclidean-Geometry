@@ -11,6 +11,8 @@ public:
     float getSideLength() const;
     void setSideLength(float length);
     int getNumSides() const;
+    float getPerimeter() const;
+    int getNumDiagonals() const;
 };
 
 #endif

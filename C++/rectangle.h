@@ -3,7 +3,7 @@
 
 #include "shape.h"
 
-class Rectangle : ConvexPolygon {
+class Rectangle : public ConvexPolygon {
 public:
     explicit Rectangle(float width, float height);
     int getNumSides() const;

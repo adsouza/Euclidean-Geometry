@@ -17,3 +17,11 @@ void Square::setSideLength(float length) {
 int Square::getNumSides() const {
     return Rectangle::getNumSides();
 }
+
+float Square::getPerimeter() const {
+    return Equilateral::getPerimeter();
+}
+
+int Square::getNumDiagonals() const {
+    return Equilateral::getNumDiagonals();
+}
