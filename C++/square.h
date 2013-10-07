@@ -4,6 +4,8 @@
 #include "shape.h"
 #include "rectangle.h"
 
+class Circle;
+
 class Square : Rectangle, Equilateral  {
 public:
     explicit Square();
@@ -13,6 +15,7 @@ public:
     int getNumSides() const;
     float getPerimeter() const;
     int getNumDiagonals() const;
+    void inscribe(Circle& round);
 };
 
 #endif

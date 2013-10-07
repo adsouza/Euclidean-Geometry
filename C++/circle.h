@@ -9,8 +9,9 @@ public:
     explicit Circle();
     float getCircumference() const;
     float getPerimeter() const;
+    float getRadius() const;
 private:
-    double radius_;
+    float radius_;
 };
 
 #endif

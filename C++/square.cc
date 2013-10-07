@@ -1,4 +1,5 @@
 #include "square.h"
+#include "circle.h"
 
 Square::Square() : Rectangle(1, 1) {
 }
@@ -24,4 +25,8 @@ float Square::getPerimeter() const {
 
 int Square::getNumDiagonals() const {
     return Equilateral::getNumDiagonals();
+}
+
+void Square::inscribe(Circle& round) {
+    setSideLength(round.getRadius() * 2);
 }

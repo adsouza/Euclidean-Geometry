@@ -17,3 +17,7 @@ float Circle::getCircumference() const {
 float Circle::getPerimeter() const {
     return getCircumference();
 }
+
+float Circle::getRadius() const {
+    return radius_;
+}
