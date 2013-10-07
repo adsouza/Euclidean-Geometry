@@ -14,5 +14,8 @@ int main(int argc, const char * argv[])
     std::cout << "A square has " << sq.getNumDiagonals() << " diagonals.";
     sq.inscribe(round);
     std::cout << "The square that inscribes the unit circle has a perimeter of " << sq.getPerimeter() << ".\n";
+    round.circumscribe(box);
+    std::cout << "The circle that circumscribes a 16x9 rectangle has a circumference of "
+              << round.getCircumference() << ".\n";
     return 0;
 }

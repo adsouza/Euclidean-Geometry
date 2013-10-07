@@ -8,6 +8,8 @@ public:
     explicit Rectangle(float width, float height);
     int getNumSides() const;
     float getPerimeter() const;
+    float getWidth() const;
+    float getHeight() const;
 protected:
     float width_;
     float height_;

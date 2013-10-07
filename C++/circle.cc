@@ -1,4 +1,5 @@
 #include "circle.h"
+#include "rectangle.h"
 
 #include <math.h>
 
@@ -20,4 +21,8 @@ float Circle::getPerimeter() const {
 
 float Circle::getRadius() const {
     return radius_;
+}
+
+void Circle::circumscribe(Rectangle& box) {
+    radius_ = hypotf(box.getWidth(), box.getHeight()) / 2;
 }

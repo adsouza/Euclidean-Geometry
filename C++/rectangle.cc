@@ -13,3 +13,11 @@ int Rectangle::getNumSides() const {
 float Rectangle::getPerimeter() const {
     return 2 * (width_ + height_);
 }
+
+float Rectangle::getWidth() const {
+    return width_;
+}
+
+float Rectangle::getHeight() const {
+    return height_;
+}
