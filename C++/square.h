@@ -15,7 +15,7 @@ public:
     int getNumSides() const;
     float getPerimeter() const;
     int getNumDiagonals() const;
-    void inscribe(Circle& round);
+    void inscribe(const Circle& round);
 };
 
 #endif

@@ -27,6 +27,6 @@ int Square::getNumDiagonals() const {
     return Equilateral::getNumDiagonals();
 }
 
-void Square::inscribe(Circle& round) {
+void Square::inscribe(const Circle& round) {
     setSideLength(round.getRadius() * 2);
 }

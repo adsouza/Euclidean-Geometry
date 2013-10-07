@@ -23,6 +23,6 @@ float Circle::getRadius() const {
     return radius_;
 }
 
-void Circle::circumscribe(Rectangle& box) {
+void Circle::circumscribe(const Rectangle& box) {
     radius_ = hypotf(box.getWidth(), box.getHeight()) / 2;
 }

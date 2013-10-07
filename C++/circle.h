@@ -12,7 +12,7 @@ public:
     float getCircumference() const;
     float getPerimeter() const;
     float getRadius() const;
-    void circumscribe(Rectangle& box);
+    void circumscribe(const Rectangle& box);
 private:
     float radius_;
 };
