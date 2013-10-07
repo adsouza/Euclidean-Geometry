@@ -11,6 +11,7 @@
 		5C9BB6EE1802054700D594CF /* shape.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6EC1802054700D594CF /* shape.cc */; };
 		5C9BB6F118020AD600D594CF /* circle.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6F018020AD600D594CF /* circle.cc */; };
 		5C9BB6F418020DC700D594CF /* rectangle.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6F218020DC700D594CF /* rectangle.cc */; };
+		5C9BB6F7180211E700D594CF /* square.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BB6F5180211E700D594CF /* square.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		5C9BB6F018020AD600D594CF /* circle.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cc; sourceTree = SOURCE_ROOT; };
 		5C9BB6F218020DC700D594CF /* rectangle.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle.cc; sourceTree = SOURCE_ROOT; };
 		5C9BB6F318020DC700D594CF /* rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = SOURCE_ROOT; };
+		5C9BB6F5180211E700D594CF /* square.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = square.cc; sourceTree = SOURCE_ROOT; };
+		5C9BB6F6180211E700D594CF /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = square.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 			children = (
 				5C9BB6EA1802054700D594CF /* main.cc */,
 				5C9BB6F218020DC700D594CF /* rectangle.cc */,
+				5C9BB6F5180211E700D594CF /* square.cc */,
+				5C9BB6F6180211E700D594CF /* square.h */,
 				5C9BB6F318020DC700D594CF /* rectangle.h */,
 				5C9BB6EB1802054700D594CF /* shape.h */,
 				5C9BB6EC1802054700D594CF /* shape.cc */,
@@ -128,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C9BB6F118020AD600D594CF /* circle.cc in Sources */,
+				5C9BB6F7180211E700D594CF /* square.cc in Sources */,
 				5C9BB6F418020DC700D594CF /* rectangle.cc in Sources */,
 				5C9BB6ED1802054700D594CF /* main.cc in Sources */,
 				5C9BB6EE1802054700D594CF /* shape.cc in Sources */,

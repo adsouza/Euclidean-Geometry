@@ -8,7 +8,7 @@ public:
     explicit Rectangle(float width, float height);
     int getNumSides() const;
     float getPerimeter() const;
-private:
+protected:
     float width_;
     float height_;
 };
