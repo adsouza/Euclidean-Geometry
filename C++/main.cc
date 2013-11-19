@@ -11,7 +11,7 @@ int main(int argc, const char * argv[])
     std::cout << "The circumference of the unit circle is " << round.getCircumference() << ".\n";
     std::cout << "The perimeter of a 16x9 rectangle is " << box.getPerimeter() << ".\n";
     std::cout << "The perimeter of the unit square is " << sq.getPerimeter() << ".\n";
-    std::cout << "A square has " << sq.getNumDiagonals() << " diagonals.";
+    std::cout << "A square has " << sq.getNumDiagonals() << " diagonals." << std::endl;
     sq.inscribe(round);
     std::cout << "The square that inscribes the unit circle has a perimeter of " << sq.getPerimeter() << ".\n";
     round.circumscribe(box);

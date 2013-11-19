@@ -3,7 +3,9 @@
 
 #include "shape.h"
 
-class Rectangle : public ConvexPolygon {
+class Quadrilateral : public ConvexPolygon {};
+
+class Rectangle : public Quadrilateral {
 public:
     explicit Rectangle(float width, float height);
     int getNumSides() const;
