@@ -29,12 +29,14 @@ func NumDiagonals(poly ConvexPolygon) int {
 	return poly.NumSides() * (poly.NumSides() - 3) / 2
 }
 
+const Quad = 4
+
 type Rectangle struct {
 	width, height float64
 }
 
 func (rect Rectangle) NumSides() int {
-	return 4
+	return Quad
 }
 
 func (rect Rectangle) Perimeter() float64 {
@@ -59,7 +61,7 @@ func (sq Square) SideLength() float64 {
 }
 
 func (sq Square) NumSides() int {
-	return 4
+	return Quad
 }
 
 func (sq Square) Perimeter() float64 {
