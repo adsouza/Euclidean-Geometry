@@ -1,6 +1,9 @@
 Euclidean Geometry
 ==================
 
+The discovery of [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code) made me abandon this.
+==================
+
 This project is a set of didactic source code samples in different programming languages that uses concepts from
 Euclidean plane geometry to illustrate language features.
 The idea behind the project is to help anybody with an understanding of basic geometry pick up the core features of
