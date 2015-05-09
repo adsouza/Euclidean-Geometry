@@ -32,8 +32,8 @@ func NumDiagonals(poly ConvexPolygon) int {
 const Quad = 4
 
 type Quadrilateral interface {
-    Width() float64
-    Height() float64
+	Width() float64
+	Height() float64
 }
 
 type Rectangle struct {
@@ -45,11 +45,11 @@ func (Rectangle) NumSides() int {
 }
 
 func (r Rectangle) Width() float64 {
-    return r.width
+	return r.width
 }
 
 func (r Rectangle) Height() float64 {
-    return r.height
+	return r.height
 }
 
 func (r Rectangle) Perimeter() float64 {
@@ -78,11 +78,11 @@ func (sq Square) NumSides() int {
 }
 
 func (sq Square) Width() float64 {
-    return sq.SideLength()
+	return sq.SideLength()
 }
 
 func (sq Square) Height() float64 {
-    return sq.SideLength()
+	return sq.SideLength()
 }
 
 func (sq Square) Perimeter() float64 {
@@ -91,29 +91,29 @@ func (sq Square) Perimeter() float64 {
 
 // Create a new square whose sides are exactly twice the length of this circle's radius.
 func (c Circle) Inscribe() Square {
-    return Square{sideLength: c.radius * 2}
+	return Square{sideLength: c.radius * 2}
 }
 
 // Modify the radius of this circle to be half the length of the quadrilateral's diagonal.
 // We do this because it's not possible for an interface to recieve a function call.
 func (c *Circle) Circumscribe(q Quadrilateral) {
-    c.radius = math.Hypot(q.Width(), q.Height())/2
+	c.radius = math.Hypot(q.Width(), q.Height()) / 2
 }
 
 func main() {
 	round := Circle{radius: 1}
 	fmt.Println("The perimeter of a circle with unit radius is", round.Perimeter())
-    rect := Rectangle{16, 9}
+	rect := Rectangle{16, 9}
 	fmt.Println("The perimeter of a 16x9 rectangle is", rect.Perimeter())
 	box := Square{sideLength: 1}
 	fmt.Println("The perimeter of a unit square is", box.Perimeter())
-    fmt.Println("A square has", NumDiagonals(box), "diagonals.")
-    fmt.Println("The square that inscribes the unit circle has a perimeter of ",
-                round.Inscribe().Perimeter())
-    round.Circumscribe(box)
-    fmt.Println("The circle that circumscribes the unit square has a circumference of ",
-                round.Circumference())
-    round.Circumscribe(rect)
-    fmt.Println("The circle that circumscribes a 16x9 rectangle has a circumference of ",
-                round.Circumference())
+	fmt.Println("A square has", NumDiagonals(box), "diagonals.")
+	fmt.Println("The square that inscribes the unit circle has a perimeter of ",
+		round.Inscribe().Perimeter())
+	round.Circumscribe(box)
+	fmt.Println("The circle that circumscribes the unit square has a circumference of ",
+		round.Circumference())
+	round.Circumscribe(rect)
+	fmt.Println("The circle that circumscribes a 16x9 rectangle has a circumference of ",
+		round.Circumference())
 }
